@@ -1,0 +1,51 @@
+extend includes/_layout
+append variables
+	//- Required
+	- var pageTitle= "網谷豪";
+	- var pageDescription= site.description;
+	- var pageKeywords= site.keywords;
+	//- Optional
+	- var pageOgpTitle= "網谷 豪";
+	- var pageOgpImage= site.ogpImage
+	- var pageLang= "ja";
+	- var pageOgpType= "website";
+	//- Not modified
+	- var pageUrl= site.relativePath;
+
+block content
+	
+
+	article.area.bg_noise
+		h1.area-title WEBで読めるマンガ
+		ul.list.by_inline
+			li.list__item
+				a(href="http://mavo.takekuma.jp/viewer.php?id=986" class="btn btn_text" target="_blank") 電脳マヴォ
+			li.list__item
+				a(href="https://rookie.shonenjump.com/users/1609047349018503201" class="btn btn_text" target="_blank") ジャンプルーキー
+			li.list__item
+				a(href="http://toko.takekuma.jp/home.php?userid=273" class="btn btn_text" target="_blank") 投稿マヴォ
+			li.list__item
+				a(href="https://mangahack.com/users/28695/comics" class="btn btn_text" target="_blank") マンガハック
+			li.list__item
+				a(href="https://www-indies.mangabox.me/episode/79908/" class="btn btn_text" target="_blank") マンガボックスインディーズ
+
+
+
+
+
+
+
+
+
+
+	// +gnavi( pageUrl )
+	// contents
+	// h2= pageUrl
+	// img(src="images/spacer.gif" style="background-image:url('images/ago_2016.jpg')").product__img
+
+
+
+		//
+			br
+			|
+		//-

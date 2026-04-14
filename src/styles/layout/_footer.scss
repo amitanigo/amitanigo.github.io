@@ -1,0 +1,15 @@
+.footer {
+	display: block;
+	padding: 2rem;
+	@include breakpoint( tablet ) {
+	}
+	@include breakpoint( pc ) {
+	}
+	@include breakpoint( wide ) {
+	}
+	@include breakpoint( full ) {
+	}
+}
+.footer-text {
+	font-size: 2rem;
+}
